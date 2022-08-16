@@ -1,0 +1,33 @@
+.ant-popover-inner-content {
+    width: 140px;
+    padding: 0px;
+    .data-popover-content {
+      display: flex;
+      flex-direction: column;
+
+      .ant-btn {
+        text-align: left;
+        border: 0;
+        padding: 0px 12px;
+        height: 38px;
+        display: flex;
+        align-items: center;
+
+        a, span {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 32px; 
+          
+          :after {
+              background: transparent;
+          }
+        }
+      }
+
+      .ant-btn:hover {
+            background:  $grey-1;
+            border-radius: 4px;
+      }
+    }
+  }

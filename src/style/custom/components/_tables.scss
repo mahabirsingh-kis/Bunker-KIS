@@ -1,0 +1,31 @@
+//
+// table.scss
+//
+
+@each $color, $value in $theme-colors {
+  .table-#{$color} {
+    th, td {
+      background: $value !important;
+    }
+  }
+}
+
+.ant-table-pagination {
+
+  .ant-pagination-options {
+  
+    .ant-select-selector {
+      height: 32px;
+      
+      .ant-select-selection-item {
+        line-height: 32px;
+      }
+    }
+
+    .ant-pagination-options-quick-jumper,
+    .ant-pagination-options-quick-jumper input {
+      height: 32px;
+      line-height: 32px;
+    }
+  }
+}

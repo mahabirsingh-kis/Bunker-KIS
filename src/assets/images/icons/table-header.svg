@@ -1,0 +1,41 @@
+<svg width="247" height="48" viewBox="0 0 247 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_7090_501621)">
+        <g opacity="0.2">
+            <mask id="mask0_7090_501621" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="342" height="48">
+                <rect x="0.5" y="0.5" width="341" height="47" fill="#C4C4C4" stroke="#74B6EF"/>
+            </mask>
+            <g mask="url(#mask0_7090_501621)">
+                <path d="M278.423 -23L94.2693 73" stroke="#A4D6F9"/>
+                <path d="M293.769 -23L109.615 73" stroke="#A4D6F9"/>
+                <path d="M94.2693 -23L-89.8845 73" stroke="#A4D6F9"/>
+                <path d="M98.654 -33L-85.4999 63" stroke="#A4D6F9"/>
+                <path d="M83.3078 -33L-100.846 63" stroke="#A4D6F9"/>
+                <path d="M67.9616 -33L-116.192 63" stroke="#A4D6F9"/>
+                <path d="M309.116 -23L124.962 73" stroke="#A4D6F9"/>
+                <path d="M109.616 -23L-74.5383 73" stroke="#A4D6F9"/>
+                <path d="M324.462 -23L140.308 73" stroke="#A4D6F9"/>
+                <path d="M124.962 -23L-59.1921 73" stroke="#A4D6F9"/>
+                <path d="M401.192 -23L217.039 73" stroke="#A4D6F9"/>
+                <path d="M201.692 -23L17.5386 73" stroke="#A4D6F9"/>
+                <path d="M339.808 -23L155.654 73" stroke="#A4D6F9"/>
+                <path d="M140.308 -23L-43.8461 73" stroke="#A4D6F9"/>
+                <path d="M416.539 -23L232.385 73" stroke="#A4D6F9"/>
+                <path d="M217.039 -23L32.8848 73" stroke="#A4D6F9"/>
+                <path d="M355.154 -23L171 73" stroke="#A4D6F9"/>
+                <path d="M155.654 -23L-28.4999 73" stroke="#A4D6F9"/>
+                <path d="M232.385 -23L48.231 73" stroke="#A4D6F9"/>
+                <path d="M370.5 -23L186.346 73" stroke="#A4D6F9"/>
+                <path d="M171 -23L-13.1537 73" stroke="#A4D6F9"/>
+                <path d="M247.731 -23L63.577 73" stroke="#A4D6F9"/>
+                <path d="M385.846 -23L201.692 73" stroke="#A4D6F9"/>
+                <path d="M186.346 -23L2.19238 73" stroke="#A4D6F9"/>
+                <path d="M263.077 -23L78.9232 73" stroke="#A4D6F9"/>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <clipPath id="clip0_7090_501621">
+            <rect width="247" height="48" fill="white"/>
+        </clipPath>
+    </defs>
+</svg>

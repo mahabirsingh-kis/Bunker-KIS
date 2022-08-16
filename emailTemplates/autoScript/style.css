@@ -1,0 +1,129 @@
+body a {
+  color: #1d6bcb;
+  text-decoration: none;
+}
+.bet-text14 {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.bet-text18 {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.bet-container {
+  padding: 40px 0 0;
+  background-color: #f7fafc;
+  font-family: Roboto, PT Sans, Source Sans Pro, Open Sans, Arial, Helvetica,
+    sans-serif;
+  color: rgba(26, 32, 44, 0.8);
+}
+
+.bet-center {
+  margin: 0 auto;
+}
+
+.bet-max-width {
+  max-width: 600px;
+}
+
+.bet-header {
+  margin: 0 auto;
+}
+
+.bet-logo img {
+  height: 60px;
+  margin-bottom: 16px;
+}
+
+.bet-title {
+  font-size: 22px;
+  line-height: 31px;
+  margin-bottom: 32px;
+}
+
+h1 {
+  color: #202838;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+.bet-company-logo {
+  width: 60px;
+  height: 60px;
+  background: #1d6bcb;
+  border-radius: 8px;
+  color: #fff;
+  line-height: 60px;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.bet-company-name {
+  font-size: 22px;
+  line-height: 31px;
+  text-align: center;
+}
+
+.bet-company-link {
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.bet-join-btn {
+  width: 185px;
+  height: 42px;
+  background: #59b87a;
+  border-radius: 4px;
+  color: #fff;
+  line-height: 42px;
+  text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  display: block;
+  text-decoration: none;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.bet-divider {
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.bet-help {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.bet-whats-bunker {
+  margin-top: 32px;
+}
+
+.bet-whats-bunker .title {
+  font-size: 28px;
+  line-height: 36px;
+  margin-bottom: 8px;
+}
+
+.bet-whats-bunker .p1 {
+  margin-bottom: 24px;
+}
+
+.bet-messageBox {
+  background-color: #fff;
+  border: 1px solid #e2e8f0;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 15px 3px rgba(36, 36, 36, 0.02);
+  border-radius: 12px;
+  padding: 40px;
+}
+
+.bet-footer {
+  text-align: center;
+  margin-top: 32px;
+  padding-bottom: 40px;
+}

@@ -1,0 +1,172 @@
+//White & Black
+$white: #FFFFFF;
+$black: #202838;
+// Color system
+$gray-100: #f8f9fa;
+$gray-200: #eff2f7;
+$gray-300: #f6f6f6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #74788d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #1b1e23;
+$primary: #ed9617;
+
+$blue: #556ee6;
+$indigo: #564ab1;
+$purple: #6f42c1;
+$pink: #e83e8c;
+$red: #f46a6a;
+$orange: #ed9617;
+$yellow: #f1b44c;
+$green: #34c38f;
+$teal: #050505;
+$cyan: #50a5f1;
+
+// scss-docs-start colors-map
+$colors: (
+  'blue': $blue,
+  'indigo': $indigo,
+  'purple': $purple,
+  'pink': $pink,
+  'red': $red,
+  'orange': $orange,
+  'yellow': $yellow,
+  'green': $green,
+  'teal': $teal,
+  'cyan': $cyan,
+  'white': $white,
+  'gray': $gray-600,
+  'gray-dark': $gray-800,
+);
+// scss-docs-end colors-map
+
+$primary: $orange;
+$secondary: $gray-900;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-200;
+$dark: $gray-800;
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+  'primary': $primary,
+  'secondary': $secondary,
+  'success': $success,
+  'info': $info,
+  'warning': $warning,
+  'danger': $danger,
+  'pink': $pink,
+  'light': $light,
+  'dark': $dark,
+);
+
+:root {
+  --white-color: #fff;
+  --gray-200-color: #eff2f7;
+  --gray-300-color: #f6f6f6;
+  --gray-800-color: #343a40;
+  --primary-color: #ed9617;
+  --sidebarbg-color: #001529;
+}
+
+$body-bg: #f8f8fb;
+
+// Vertical Sidebar - Default Dark
+$sidebar-dark-bg: #001529;
+$sidebar-dark-menu-item-color: #a6b0cf;
+$sidebar-dark-menu-sub-item-color: #79829c;
+$sidebar-dark-menu-item-icon-color: #6a7187;
+$sidebar-dark-menu-item-hover-color: #ffffff;
+$sidebar-dark-menu-item-active-color: #ffffff;
+
+// Vertical Sidebar - Light
+$sidebar-bg: #ffffff;
+$sidebar-menu-item-color: #545a6d;
+$sidebar-menu-sub-item-color: #545a6d;
+$sidebar-menu-item-icon-color: #7f8387;
+$sidebar-menu-item-hover-color: #383c40;
+$sidebar-menu-item-active-color: #556ee6;
+
+$sidebar-width: 200px;
+$sidebar-collapsed-width: 80px;
+
+// Topbar - Deafult Light
+$header-height: 64px;
+$header-bg: #ffffff;
+$header-item-color: #272829;
+
+// Topbar - Dark
+$header-dark-bg: #001529;
+$header-dark-item-color: $white;
+
+$box-shadow-sm: 0 0.125rem 0.25rem rgba($black, 0.075);
+$box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
+$box-shadow-lg: 0 1rem 3rem rgba($black, 0.175);
+$box-shadow-inset: inset 0 1px 2px rgba($black, 0.075);
+
+
+// Primary
+$primary-1: #D1ECFC;
+$primary-2: #A4D6F9;
+$primary-3: #74B6EF;
+$primary-4: #4F96DF;
+$primary-5: #1D6BCB;
+$primary-6: #1553AE;
+$primary-7: #0E3D92;
+$primary-8: #092B75;
+$primary-9: #051E61;
+//Warning
+$warning-1: #FCF0D1;
+$warning-2: #F9DEA4;
+$warning-3: #EFC274;
+$warning-4: #DFA54F;
+$warning-5: #CB7C1D;
+$warning-6: #AE6115;
+$warning-7: #924A0E;
+$warning-8: #753509;
+$warning-9: #612605;
+//Success
+$success-1: #E2FBE1;
+$success-2: #C4F7C7;
+$success-3: #A1E9AC;
+$success-4: #82D496;
+$success-5: #59B87A;
+$success-6: #419E6A;
+$success-7: #2C845C;
+$success-8: #1C6A4E;
+$success-9: #115845;
+//Danger
+$danger-1: #FDEAD8;
+$danger-2: #FBCFB2;
+$danger-3: #F3AC89;
+$danger-4: #E88A6A;
+$danger-5: #DA583C;
+$danger-6: #BB3A2B;
+$danger-7: #9C211E;
+$danger-8: #7E1318;
+$danger-9: #680B17;
+//Greys
+$grey-1: #F7FAFC;
+$grey-2: #EDF2F7;
+$grey-3: #E2E8F0;
+$grey-4: #CBD5E0;
+$grey-5: #A0AEC0;
+$grey-6: #718096;
+$grey-7: #4A5568;
+$grey-8: #2D3748;
+$grey-9: #1A202C;
+//Text Colors
+$white-08: rgba(255, 255, 255, 0.8);
+$white-06: rgba(255, 255, 255, 0.6);
+$white-04: rgba(255, 255, 255, 0.4);
+$white-02: rgba(255, 255, 255, 0.2);
+$black-02: rgba(26, 32, 44, 0.2);
+$black-04: rgba(26, 32, 44, 0.4);
+$black-06: rgba(26, 32, 44, 0.6);
+$black-08: rgba(26, 32, 44, 0.8);
+
+$border-color: '#e2e8f0';

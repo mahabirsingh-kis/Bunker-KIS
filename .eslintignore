@@ -1,0 +1,8 @@
+.eslintrc.js
+craco.config.js
+
+src/serviceWorker.ts
+src/features/counter/*
+server/
+emailTemplates/
+src/libs/react-grid/

@@ -1,0 +1,134 @@
+// Core files
+@import 'variables';
+
+// Structure
+@import 'custom/structure/topbar';
+@import 'custom/structure/vertical';
+
+// Plugins
+@import 'custom/plugins/custom-scrollbar';
+// Fonts
+@import 'fonts';
+
+body {
+  font-family: 'Inter';
+  color: $black;
+  background-color: $body-bg;
+}
+
+::-webkit-scrollbar {
+  width: 6px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+::-webkit-scrollbar-thumb {
+  width: 6px;
+  background: $grey-3;
+  border-radius: 6px;
+}
+
+.icon-btn {
+  border: none;
+}
+
+.page-content {
+  background-color: $grey-1;
+  min-width: 800px;
+}
+
+.ant-layout.add-data-layout {
+  height: calc(100vh - 78px);
+}
+
+.ant-picker-content td {
+  font-weight: 400;
+  width: 15px;
+  height: 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.ant-picker-cell-disabled::before {
+  background: $white;
+  color: $grey-4;
+}
+
+.ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-cell-inner {
+  color: $primary-5;
+  background: $white;
+}
+
+.ant-dropdown-menu-root, .ant-dropdown-menu-sub {
+  background: #ffffff;
+  border: 1px solid $grey-3;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 4px rgba(189, 189, 189, 0.25);
+  border-radius: 4px;
+}
+.ant-dropdown-menu {
+  padding: 4px;
+}
+
+.ant-picker-panel-container {
+  .all-time-selection {
+    text-align: center;
+  }
+}
+.ant-dropdown-menu-submenu {
+  .ant-dropdown-menu-submenu-expand-icon {
+    position: absolute;
+    right: 13px;
+    top: 11px;
+    padding: 0px 0px;
+  }
+
+  .ant-dropdown-menu-title-content {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 32px;
+  }
+  .anticon-caret-right svg {
+    width: 12px;
+    height: 12px;
+  }
+}
+.ant-dropdown-menu-submenu-title {
+  color: $black-08;
+  padding: 0 32px 0 8px;
+  border-radius: 4px;
+}
+.ant-dropdown-menu-submenu-active:hover .ant-dropdown-menu-submenu-title,
+.ant-dropdown-menu-item:hover {
+  background: $grey-1;
+  color: $black-08;
+}
+
+.edi-view-options {
+  width: 168px;
+}
+
+.ant-dropdown-menu {
+  .ant-dropdown-menu-item {
+    border-radius: 4px;
+    height: 32px;
+  }
+  .ant-dropdown-menu-submenu-title {
+    color: $black-08;
+    padding: 0 32px 0 8px;
+  }
+  .ant-dropdown-menu-submenu-active:hover .ant-dropdown-menu-submenu-title,
+  .ant-dropdown-menu-item:hover {
+    background: $grey-1;
+    color: $black-08;
+  }
+  .ant-dropdown-menu-item-selected {
+    background-color: $primary-4;
+    color: $white;
+  }
+}
+
+.ant-dropdown-menu-submenu-popup ul {
+  margin-left: -3px;
+}

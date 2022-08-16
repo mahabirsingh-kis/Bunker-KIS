@@ -1,0 +1,67 @@
+stages:
+  - test
+  - build
+  - deploy
+
+cache:
+  paths:
+    - react.tar.gz
+
+mr_dev_test:
+  stage: test
+  tags:
+    - bunker-dev-react
+  only:
+    - merge_requests
+  script:
+    - cp /mnt/react/dev.env .env
+    - yarn install
+    - yarn lint
+
+build_dev:
+  stage: build
+  tags:
+    - bunker-dev-react
+  script:
+    - cp /mnt/react/dev.env .env
+    - yarn install
+    - yarn build
+    - tar cf react.tar.gz * .[!.]*
+  only:
+    - develop
+
+deploy_dev:
+  stage: deploy
+  tags:
+    - bunker-dev-react
+  script:
+    - tar xf react.tar.gz -C /mnt/react/apps/
+    - chown -R root:root /mnt/react/apps
+    - cd /mnt/react/apps && cp dev.robots.txt robots.txt
+    - cd /mnt/react && docker-compose restart && bash sync.sh
+  only:
+    - develop
+
+build_stg:
+  stage: build
+  tags:
+    - bunker-stg-react
+  script:
+    - cp /mnt/react/stg.env .env
+    - yarn install
+    - yarn run build
+    - tar cf react.tar.gz * .[!.]*
+  only:
+    - /^release\/.*$/
+
+deploy_stg:
+  stage: deploy
+  tags:
+    - bunker-stg-react
+  script:
+    - tar xf react.tar.gz -C /mnt/react/apps/
+    - chown -R root:root /mnt/react/apps
+    - cd /mnt/react/apps && cp stg.robots.txt robots.txt
+    - cd /mnt/react && docker-compose restart && bash sync.sh
+  only:
+    - /^release\/.*$/
